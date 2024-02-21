@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using DesignPatternsGoF.Factory_Method.Business;
+
+PizzaFactoryBusiness factoryMethod = new();
+factoryMethod.DoWork();
