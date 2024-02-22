@@ -10,6 +10,7 @@
   <ItemGroup>
     <Folder Include="Builder\" />
     <Folder Include="Abstract Factory\" />
+    <Folder Include="Factory\Abstract Factory\" />
     <Folder Include="Singleton\" />
     <Folder Include="Prototype\" />
   </ItemGroup>

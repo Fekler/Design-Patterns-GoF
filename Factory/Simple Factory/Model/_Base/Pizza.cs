@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsGoF.Factory_Method.Model._Base
+﻿namespace DesignPatternsGoF.Factory.Simple_Factory.Model._Base
 {
     public abstract class Pizza
     {
