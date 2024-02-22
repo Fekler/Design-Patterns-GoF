@@ -1,16 +1,16 @@
-﻿using DesignPatternsGoF.Factory_Method.Model._Base;
+﻿using DesignPatternsGoF.Factory.Simple_Factory.Model._Base;
 
-namespace DesignPatternsGoF.Factory_Method.Model
+namespace DesignPatternsGoF.Factory.Simple_Factory.Model
 {
-    public class PizzaMussarela : Pizza
+    public class PizzaCalabreza : Pizza
     {
-        private readonly string _name = "Pizza de Mussarela";
+        private readonly string _name = "Pizza de Calabreza";
 
-        public PizzaMussarela()
+        public PizzaCalabreza()
         {
             Name = _name;
         }
-
+        
         public override void Bake(int time)
         {
             Console.WriteLine($"{Name} Will be beaking for {time} min.");

@@ -1,9 +1,9 @@
-﻿using DesignPatternsGoF.Factory_Method.Model;
-using DesignPatternsGoF.Factory_Method.Model._Base;
+﻿using DesignPatternsGoF.Factory.Simple_Factory.Model;
+using DesignPatternsGoF.Factory.Simple_Factory.Model._Base;
 using System.ComponentModel;
-using static DesignPatternsGoF.Factory_Method.Util.Constants;
+using static DesignPatternsGoF.Factory.Simple_Factory.Util.Constants;
 
-namespace DesignPatternsGoF.Factory_Method
+namespace DesignPatternsGoF.Factory.Simple_Factory
 {
     public class PizzaSimpleFactory
     {

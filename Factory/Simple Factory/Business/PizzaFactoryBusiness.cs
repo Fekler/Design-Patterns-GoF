@@ -1,7 +1,7 @@
-﻿using DesignPatternsGoF.Factory_Method.Model._Base;
-using static DesignPatternsGoF.Factory_Method.Util.Constants;
+﻿using DesignPatternsGoF.Factory.Simple_Factory.Model._Base;
+using static DesignPatternsGoF.Factory.Simple_Factory.Util.Constants;
 
-namespace DesignPatternsGoF.Factory_Method.Business
+namespace DesignPatternsGoF.Factory.Simple_Factory.Business
 {
     public class PizzaFactoryBusiness
     {
