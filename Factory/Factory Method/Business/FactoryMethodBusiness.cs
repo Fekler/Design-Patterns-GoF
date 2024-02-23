@@ -20,6 +20,8 @@ namespace DesignPatternsGoF.Factory.Factory_Method
         {
             try
             {
+                Console.WriteLine("========= Pizzaria ======");
+
                 while (!placeSucess)
                 {
                     placeSucess = SelectPlace();
@@ -46,7 +48,6 @@ namespace DesignPatternsGoF.Factory.Factory_Method
         bool SelectPlace()
         {
             bool placeSucess = false;
-            Console.WriteLine("========= Pizzaria ======");
             Console.WriteLine("Informe o local São Paulo(1)  Rio de Janeiro(2)");
             string? selectedPlace = Console.ReadLine();
             if (!string.IsNullOrEmpty(selectedPlace) && int.TryParse(selectedPlace, out orderplace))

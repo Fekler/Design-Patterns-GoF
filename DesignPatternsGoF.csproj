@@ -9,10 +9,12 @@
 
   <ItemGroup>
     <Folder Include="Builder\" />
-    <Folder Include="Abstract Factory\" />
-    <Folder Include="Factory\Abstract Factory\" />
-    <Folder Include="Singleton\" />
-    <Folder Include="Prototype\" />
+    <Folder Include="Singleton\Eager\Model\" />
+    <Folder Include="Singleton\Eager\Business\" />
+    <Folder Include="Singleton\LazyLoading\Model\" />
+    <Folder Include="Singleton\LazyLoading\Business\" />
+    <Folder Include="Singleton\Static\Business\" />
+    <Folder Include="Singleton\Static\Model\" />
   </ItemGroup>
 
 </Project>
